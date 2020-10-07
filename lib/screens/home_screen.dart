@@ -32,9 +32,15 @@ import 'package:flutter/material.dart';
 // TODO (10): Assign the children attribute in Column(), to [CelebCard()]
 // By doing this, our Column() will now display CelebCard().
 
+// TODO (11): Run the app. You should see a blank white screen.
+
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Column(children: [CelebCard()],),);
+    return Scaffold(
+      body: Column(
+        children: [CelebCard()],
+      ),
+    );
   }
 }
