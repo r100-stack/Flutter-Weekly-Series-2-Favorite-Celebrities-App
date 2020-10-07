@@ -4,6 +4,25 @@ void main() {
   runApp(MyApp());
 }
 
+// TODO (1): Notice the initial project structure
+// By default, when we create a new Flutter project, we get a default template app
+// This app counts the number of times the + button is clicked.
+// We want to create a new app from scratch. Hence, we can delete most of the template code.
+// Keep "MyApp" but delete "MyHomePage". We will create our own home page.
+
+// After deleting MyHomePage, the home attribute of the MaterialApp (MyApp) gives an error.
+// Let's solve this my creating our own HomePage.
+
+// TODO (3): Create a package called "screens" (/lib/screens)
+// In Dart/Flutter, the convention for a file's name is all small letters separated by "_"
+// TODO (4): Create a file called home_screen.dart
+
+// Within home_screen.dart
+// TODO (5): Type "stl" and select "New stateless widget"
+// We will now create a stateless widget to represent our HomeScreen.
+// TODO (6): Name the new widget as "HomeScreen"
+// TODO (7): Run the app. You should see a blank black screen.
+
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
@@ -31,6 +50,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
+// TODO (2): Delete "MyHomePage"
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
 
