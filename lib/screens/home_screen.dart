@@ -5,6 +5,10 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('Rohan\'s favorite celebrities!'),
+        backgroundColor: Colors.pink,
+      ),
       body: Column(
         children: [CelebCard()],
       ),
