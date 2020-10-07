@@ -21,11 +21,14 @@ void main() {
 // TODO (5): Type "stl" and select "New stateless widget"
 // We will now create a stateless widget to represent our HomeScreen.
 // TODO (6): Name the new widget as "HomeScreen"
+// TODO (7): Click on any of the errors
+// TODO (8): Press Alt+Enter (Ctrl+. on VS Code)
+// TODO (9): Import the material package.
 
-// TODO (7): Now go to main.dart
-// TODO (8): The "home" attribute of the MaterialApp (MyApp) should now point to the new widget.
+// TODO (10): Now go to main.dart
+// TODO (11): The "home" attribute of the MaterialApp (MyApp) should now point to the new widget.
 
-// TODO (9): Run the app. You should see a blank black screen.
+// TODO (12): Run the app. You should see a blank black screen.
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
