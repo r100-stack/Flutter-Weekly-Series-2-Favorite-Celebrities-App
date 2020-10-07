@@ -1,4 +1,3 @@
-import 'package:favorite_celebrities_2/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -28,7 +27,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomeScreen(),
+      home: ,
     );
   }
 }
