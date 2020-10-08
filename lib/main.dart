@@ -5,6 +5,12 @@ void main() {
   runApp(MyApp());
 }
 
+// Notice how when you overscroll on Android, you get a blue rainbow.
+// This doesn't match our general color theme of Pink
+// We will discuss colors themes next week.
+// However, for now, let's just blindly add a Colors.pinkAccent as the app's accent color.
+// TODO (5): Finally, add an accent color (Colors.pinkAccent) to the ThemeData object's accentColor property.
+
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
@@ -31,3 +37,5 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+// TODO (6): Give yourself a pat on your back, you just created your first functional Flutter app!
