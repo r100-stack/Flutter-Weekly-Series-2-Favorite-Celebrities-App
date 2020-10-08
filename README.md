@@ -42,17 +42,17 @@ My favorite celebrities are Conan O'Brien, Craig Ferguson, Andy Richter, and ...
 ### Steps
 
 1. Initial project setup
-<img src="assets/images/step_1.png">
-2. Creating our CelebCard and HomeScreen's Column
-<img src="assets/images/step_2.png">
-3. Adding content to our CelebCard
-<img src="assets/images/step_3.png">
-4. Adding paddings and other spacings to beautify UI
-<img src="assets/images/step_4.png">
-5. Adding multiple CelebCards
-<img src="assets/images/step_5.gif">
-5. Modularizing our CelebCard to take any celeb's information
-<img src="assets/images/screenshot.gif">
+<img src="assets/step_1.png">
+1. Creating our CelebCard and HomeScreen's Column
+<img src="assets/step_2.png">
+1. Adding content to our CelebCard
+<img src="assets/step_3.png">
+1. Adding paddings and other spacings to beautify UI
+<img src="assets/step_4.png">
+1. Adding multiple CelebCards
+<img src="assets/step_5.gif">
+1. Modularizing our CelebCard to take any celeb's information
+<img src="assets/screenshot.gif">
 
 ### Skills Learned
 
