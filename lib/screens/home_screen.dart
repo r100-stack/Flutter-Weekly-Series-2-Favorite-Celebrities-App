@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 // Notice how the column is only as wide as the Column needs to be.
 // To change this, add the CrossAxisAlignment.stretch property for the Column()
 // Then the Column will stretch regardless of it's contents
+// TODO (13): For "crossAxisAlignment" of Column, assign CrossAxisAlignment.stretch
 
 class HomeScreen extends StatelessWidget {
   @override
