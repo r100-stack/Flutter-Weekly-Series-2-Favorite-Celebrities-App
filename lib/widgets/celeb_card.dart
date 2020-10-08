@@ -1,5 +1,13 @@
 import 'package:flutter/material.dart';
 
+// Notice how the CelebCard contains static information.
+// Hence, all three cards show the same celebrity, Conan O'Brien.
+// Although I wouldn't mind all my favorite celebrities being Conan, we need change this implementation.
+// To do this, we should take in imageUrl, name, and tagline information in the constructor.
+// Hence, we first define the fields for these 3 variables.
+// As this is a stateless widget, these three fields must be final. (More about that next week)
+// TODO (1): Declare three final String fields: imageUrl, name, tagline
+
 class CelebCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
